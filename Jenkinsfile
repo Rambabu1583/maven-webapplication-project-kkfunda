@@ -30,7 +30,7 @@ node
         sh """
             curl -u kk:password \
             --upload-file /var/lib/jenkins/workspace/jio-scriptedpipeline/target/maven-web-application.war \
-            "http://13.232.167.40:9090/manager/text/deploy?path=/maven-web-application&update=true"
+            "http://13.233.62.63:9090/manager/text/deploy?path=/maven-web-application&update=true"
         """
     }
 }
